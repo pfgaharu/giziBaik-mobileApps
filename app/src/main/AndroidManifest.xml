@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="intern.com.prant.intent"
+    android:versionCode="2">
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/gizibaik"
+        android:label="Gizi Baik"
+        android:roundIcon="@mipmap/gizibaik"
+        android:supportsRtl="true">
+        <activity android:name=".MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.NoActionBar"
+            android:name=".SecondActivity"
+            android:parentActivityName=".MainActivity">
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="intern.com.prant.intent.MainActivity"	/>
+        </activity>
+        <activity
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.NoActionBar"
+            android:name=".giziSehatActivity"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="intern.com.prant.intent.MainActivity"	/>
+        </activity>
+        <activity
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.NoActionBar"
+            android:name=".rumahSehatActivity"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="intern.com.prant.intent.MainActivity"	/>
+        </activity>
+        <activity
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.NoActionBar"
+            android:name=".kabarSehatActivity"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="intern.com.prant.intent.MainActivity"	/>
+        </activity>
+
+        <activity
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.NoActionBar"
+            android:name=".anemiaActivity"
+            android:parentActivityName=".giziSehatActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="intern.com.prant.intent.giziSehatActivity"	/>
+        </activity>
+        <activity
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.NoActionBar"
+            android:name=".dbdActivity"
+            android:parentActivityName=".giziSehatActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="intern.com.prant.intent.giziSehatActivity"	/>
+        </activity>
+        <activity
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.NoActionBar"
+            android:name=".demamThypoidActivity"
+            android:parentActivityName=".giziSehatActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="intern.com.prant.intent.giziSehatActivity"	/>
+        </activity>
+        <activity
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.NoActionBar"
+            android:name=".diareActivity"
+            android:parentActivityName=".giziSehatActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="intern.com.prant.intent.giziSehatActivity"	/>
+        </activity>
+        <activity
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.NoActionBar"
+            android:name=".tbcActivity"
+            android:parentActivityName=".giziSehatActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="intern.com.prant.intent.giziSehatActivity"	/>
+        </activity>
+        <activity
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.NoActionBar"
+            android:name=".hipertensiActivity"
+            android:parentActivityName=".giziSehatActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="intern.com.prant.intent.giziSehatActivity"	/>
+        </activity>
+        <activity
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.NoActionBar"
+            android:name=".hipokalemiaActivity"
+            android:parentActivityName=".giziSehatActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="intern.com.prant.intent.giziSehatActivity"	/>
+        </activity>
+        <activity
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.NoActionBar"
+            android:name=".dispepsiaActivity"
+            android:parentActivityName=".giziSehatActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="intern.com.prant.intent.giziSehatActivity"	/>
+        </activity>
+        <activity
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.NoActionBar"
+            android:name=".preeklampsiaActivity"
+            android:parentActivityName=".giziSehatActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="intern.com.prant.intent.giziSehatActivity"	/>
+        </activity>
+        <activity
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.NoActionBar"
+            android:name=".hiperemesisActivity"
+            android:parentActivityName=".giziSehatActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="intern.com.prant.intent.giziSehatActivity"	/>
+        </activity>
+    </application>
+</manifest>
