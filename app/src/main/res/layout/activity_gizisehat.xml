@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="intern.com.prant.intent.giziSehatActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundapp">
+
+    <ImageView
+        android:id="@+id/anemia"
+        android:layout_width="130dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="35dp"
+        android:onClick="launchanemiaActivity"
+        android:scaleType="fitXY"
+        android:src="@mipmap/anemiags"
+        android:layout_marginTop="100dp"
+
+        />
+    <ImageView
+        android:id="@+id/demamthypoid"
+        android:layout_width="130dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="35dp"
+        android:onClick="launchdemamThypoidActivity"
+        android:src="@mipmap/demamthypoid"
+        android:scaleType="fitXY"
+        android:layout_below="@+id/anemia"
+        android:layout_marginTop="30dp"/>
+
+    <ImageView
+        android:id="@+id/tbc"
+        android:layout_width="130dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="35dp"
+        android:onClick="launchtbcActivity"
+        android:scaleType="fitXY"
+        android:src="@mipmap/tbc"
+        android:layout_below="@+id/demamthypoid"
+        android:layout_marginTop="30dp"
+        />
+
+    <ImageView
+        android:id="@+id/hipokalemia"
+        android:layout_width="130dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="35dp"
+        android:onClick="launchhipokalemiaActivity"
+        android:scaleType="fitXY"
+        android:src="@mipmap/hipokalemia"
+        android:layout_below="@+id/tbc"
+        android:layout_marginTop="30dp"
+        />
+
+    <ImageView
+        android:id="@+id/preeklampsia"
+        android:layout_width="130dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="35dp"
+        android:onClick="launchpreeklampsiaActivity"
+        android:scaleType="fitXY"
+        android:src="@mipmap/preeklampsia"
+        android:layout_below="@+id/hipokalemia"
+        android:layout_marginTop="30dp"
+        />
+
+    <ImageView
+        android:id="@+id/dbd"
+        android:layout_width="130dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="200dp"
+        android:onClick="launchdbdActivity"
+        android:scaleType="fitXY"
+        android:src="@mipmap/dbd"
+        android:layout_marginTop="100dp"
+        />
+
+    <ImageView
+        android:id="@+id/diare"
+        android:layout_width="130dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="200dp"
+        android:onClick="launchdiareActivity"
+        android:scaleType="fitXY"
+        android:src="@mipmap/diare"
+        android:layout_below="@+id/anemia"
+        android:layout_marginTop="30dp"
+      />
+
+    <ImageView
+        android:id="@+id/hipertensi"
+        android:layout_width="130dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="200dp"
+        android:onClick="launchhipertensiActivity"
+        android:scaleType="fitXY"
+        android:src="@mipmap/hipertensi"
+        android:layout_below="@+id/diare"
+        android:layout_marginTop="30dp"
+        />
+
+     <ImageView
+        android:id="@+id/dispepsia"
+        android:layout_width="130dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="200dp"
+        android:onClick="launchdispepsiaActivity"
+        android:scaleType="fitXY"
+        android:src="@mipmap/dispesia"
+        android:layout_below="@+id/hipertensi"
+        android:layout_marginTop="30dp"
+        />
+    <ImageView
+        android:id="@+id/hiperemesis"
+        android:layout_width="130dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="200dp"
+        android:onClick="launchhiperemesisActivity"
+        android:scaleType="fitXY"
+        android:src="@mipmap/hiperemesis"
+        android:layout_below="@+id/dispepsia"
+        android:layout_marginTop="30dp"
+        />
+</RelativeLayout>

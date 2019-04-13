@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="intern.com.prant.intent.hipokalemiaActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundapp">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold"
+        android:text="Pengertian"
+        android:typeface="sans"
+        android:id="@+id/kalimat1"
+        android:layout_marginTop="78dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_alignParentTop="true" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:text="Hipokalemia adalah suatu keadaan dimana"
+        android:typeface="sans"
+        android:id="@+id/kalimat2"
+        android:layout_below="@+id/kalimat1" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:text="kadar kalium yang terdapat di dalam darah berada"
+        android:typeface="sans"
+        android:id="@+id/kalimat3"
+        android:layout_below="@+id/kalimat2" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:text="pada jumlah yang lebih rendah dari 3.8 mEq/L darah."
+        android:typeface="sans"
+        android:id="@+id/kalimat4"
+        android:layout_below="@+id/kalimat3" />
+
+       <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryDark"
+        android:text="Syarat Diet"
+        android:typeface="sans"
+        android:id="@+id/kalimat5"
+        android:layout_below="@+id/kalimat4"
+        android:layout_alignLeft="@+id/kalimat4"
+        android:layout_alignStart="@+id/kalimat4"
+        android:layout_marginTop="10dp" />
+
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:text="1. Mudah cerna, porsi kecil dan sering"
+        android:typeface="sans"
+        android:id="@+id/kalimat6"
+        android:layout_below="@+id/kalimat5" />
+
+       <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:text="2. Energi, protein, lemak, dan karbohidrat cukup"
+        android:typeface="sans"
+        android:id="@+id/kalimat7"
+        android:layout_below="@+id/kalimat6" />
+
+       <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:text="3. Tinggi Kalium seperti pisang, alpukat, tomat, bayam"
+        android:typeface="sans"
+        android:id="@+id/kalimat8"
+        android:layout_below="@+id/kalimat7" />
+
+       <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="10dp"
+        android:text="kacang kedelai dan kacang merah."
+        android:typeface="sans"
+        android:id="@+id/kalimat9"
+        android:layout_below="@+id/kalimat8" />
+
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:text="4. Bentuk makanan dikondisikan dengan kondisi klinis "
+        android:typeface="sans"
+        android:id="@+id/kalimat10"
+        android:layout_below="@+id/kalimat9" />
+
+       <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="10dp"
+        android:text="dan kemampuan Anda."
+        android:typeface="sans"
+        android:id="@+id/kalimat11"
+        android:layout_below="@+id/kalimat10" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold|italic"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="12sp"
+        android:text="Catatan"
+        android:typeface="sans"
+        android:id="@+id/kalimat12"
+        android:layout_below="@+id/kalimat11"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="12sp"
+        android:textStyle="italic"
+        android:text="- Toleransi individu terhadap makanan sangat individual"
+        android:typeface="sans"
+        android:id="@+id/kalimat13"
+        android:layout_below="@+id/kalimat12"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="12sp"
+        android:textStyle="italic"
+        android:text="sehingga perlu dilakukan penyesuaian"
+        android:typeface="sans"
+        android:id="@+id/kalimat14"
+        android:layout_below="@+id/kalimat13"
+        android:layout_marginLeft="17dp"
+        android:layout_marginRight="10dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="12sp"
+        android:textStyle="italic"
+        android:text="- Untuk pengkajian diet secara individu dan lebih"
+        android:typeface="sans"
+        android:id="@+id/kalimat15"
+        android:layout_below="@+id/kalimat14"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="12sp"
+        android:textStyle="italic"
+        android:text="mendetail, konsultasikan lanjut dengan Nutrisionist Anda."
+        android:typeface="sans"
+        android:id="@+id/kalimat16"
+        android:layout_below="@+id/kalimat15"
+        android:layout_marginLeft="17dp"
+        android:layout_marginRight="10dp" />
+
+</RelativeLayout>

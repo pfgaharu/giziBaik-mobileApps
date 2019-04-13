@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">RSUD Pademangan Bergizi</string>
+
+    <string name="linktosite1">
+        <a href="https://menebargizi.org/?p=389">7 Alasan Penting Kenapa Harus Berkonsultasi dengan Ahli Gizi Sebelum Kamu Berdiet</a>
+    </string>
+
+    <string name="linktosite2">
+        <a href="https://menebargizi.org/?p=344">4 Pilar Gizi Seimbang</a>
+    </string>
+
+    <string name="linktosite3">
+        <a href="https://menebargizi.org/?p=341">Infused Water</a>
+    </string>
+
+    <string name="linktosite4">
+        <a href="https://menebargizi.org/?p=339">Tips Mengempukkan Daging</a>
+    </string>
+
+    <string name="linktosite5">
+        <a href="https://menebargizi.org/?p=108">Seledri Solusi Hipertensi</a>
+    </string>
+
+    <string name="linktosite6">
+        <a href="https://menebargizi.org/?p=106">Tips Mencegah Kegemukan Pada Anak</a>
+    </string>
+
+    <string name="linktosite7">
+        <a href="https://menebargizi.org/?p=104">Tips Mencegah Berat Badan Kurang</a>
+    </string>
+
+    <string name="linktosite8">
+        <a href="https://menebargizi.org/?p=96">Sudah Sarapankah Hari Ini?</a>
+    </string>
+
+    <string name="linktosite9">
+        <a href="https://menebargizi.org/?p=94">Yuk Makan Bayam</a>
+    </string>
+
+    <string name="linktosite10">
+        <a href="https://menebargizi.org/?p=91">Reduce, Reuse, Recycle</a>
+    </string>
+
+    <string name="linktosite11">
+        <a href="https://menebargizi.org/?p=80">EGCG, Si Antioksidan Super!</a>
+    </string>
+
+    <string name="linktosite12">
+        <a href="https://menebargizi.org/?p=82">Mengkudu, Si Hijau Berkhasiat</a>
+    </string>
+
+</resources>

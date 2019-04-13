@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="intern.com.prant.intent.rumahSehatActivity">
+
+    <ImageView
+        android:id="@+id/headerbackgroud"
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:layout_weight="0"
+        android:background="#3AB36E"
+        android:src="@drawable/backgroundappheader" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_weight="1">
+        <ScrollView
+            android:id="@+id/scrollText1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true"
+            android:scrollbars="none">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/bodybackgroudd">
+
+                <TextView
+                    android:id="@+id/kalimat1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:text="Sejarah"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textStyle="bold"
+                    android:typeface="sans" />
+
+                <TextView
+                    android:id="@+id/kalimat2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/kalimat1"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:text="Rumah Sakit Umum Daerah (RSUD) Pademangan yang tergolong RSUD Kelas D ini, mulai bergerak pada tanggal 6 Maret 2015 yang sebelumnya merupakan Puskesmas Kecamatan Pademangan. Perubahan itu berdasarkan peraturan Gurbernur Provinsi DKI Jakarta No. 1024/2014 tentang perubahan fungsi Puskesmas Kecamatan menjadi Rumah Sakit Umum Kecamatan. "
+                    android:textColor="@color/colorPrimaryDark"
+                    android:typeface="sans" />
+
+                <TextView
+                    android:id="@+id/kalimat3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/kalimat2"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:text="Perubahan status tersebut dilakukan dengan tujuan meningkatkan pelayanan kesehatan kepada masyarakat sehingga tidak ada lagi penumpukan pasien di RS tipe B dan A. Berdasarkan pergub 1024/2014 Peningkatan Puskesmas Kecamatan Rawat Inap menjadi Rumah Sakit Umum Kecamatan dan kemudian Pergub No. /2016 menjadi RSUD Kelas D"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:typeface="sans" />
+
+
+                <TextView
+                    android:id="@+id/kalimat5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/kalimat3"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:text="Visi dan Misi"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textStyle="bold"
+                    android:typeface="sans" />
+
+                <TextView
+                    android:id="@+id/kalimat6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/kalimat5"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:text="Visi:  Menjadi rumah sakit terdepan di DKI Jakarta"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:typeface="sans" />
+
+                <TextView
+                    android:id="@+id/kalimat7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/kalimat6"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:text="Misi:"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:typeface="sans" />
+
+                <TextView
+                    android:id="@+id/kalimat8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/kalimat7"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:text="1. Meningkatkan kualitas SDM sesuai dengan"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:typeface="sans" />
+
+                <TextView
+                    android:id="@+id/kalimat9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/kalimat8"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="10dp"
+                    android:text="perkembangan ilmu Pengetahuan dan Teknologi"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:typeface="sans" />
+
+                <TextView
+                    android:id="@+id/kalimat10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/kalimat9"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:text="2. Memberikan pelayanan prima yang mengutamakan "
+                    android:textColor="@color/colorPrimaryDark"
+                    android:typeface="sans" />
+
+                <TextView
+                    android:id="@+id/kalimat11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/kalimat10"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="10dp"
+                    android:text="kepuasan dan keselamatan pelanggan"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:typeface="sans" />
+
+                <TextView
+                    android:id="@+id/kalimat12"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/kalimat11"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:text="3. Menyediakan dan meningkatkan sarana prasarana"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:typeface="sans" />
+
+                <TextView
+                    android:id="@+id/kalimat13"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/kalimat12"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="10dp"
+                    android:text="yang unggul"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:typeface="sans" />
+
+                <TextView
+                    android:id="@+id/kalimat14"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/kalimat13"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:text="4. Menciptakan lingkungan kerja yang"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:typeface="sans" />
+
+                <TextView
+                    android:id="@+id/kalimat15"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/kalimat14"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="10dp"
+                    android:text="sehat dan harmonis"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:typeface="sans" />
+
+                <TextView
+                    android:id="@+id/kalimat16"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/kalimat15"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:text="5. Menjalin kerjasama lintas sektoral"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:typeface="sans" />
+
+                <TextView
+                    android:id="@+id/kalimat17"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/kalimat16"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="10dp"
+                    android:text="dan organisasi lain"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:typeface="sans" />
+
+                <TextView
+                    android:id="@+id/kalimat18"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/kalimat17"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:text="Alamat"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textStyle="bold"
+                    android:typeface="sans" />
+
+                <TextView
+                    android:id="@+id/kalimat19"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/kalimat18"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="10dp"
+                    android:text="Jalan Budi Mulia Raya No.2 RT 15 / RW 11, Pademangan Barat, Pademangan, Kota Jakarta Utara, Daerah Khusus Ibukota Jakarta 14420"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:typeface="sans" />
+
+                <TextView
+                    android:id="@+id/kalimat20"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/kalimat19"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:text="No Telepon"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textStyle="bold"
+                    android:typeface="sans" />
+
+                <TextView
+                    android:id="@+id/kalimat21"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/kalimat20"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="10dp"
+                    android:text="021 6452346"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:typeface="sans" />
+
+                <ImageView
+                    android:id="@+id/alamatGMaps"
+                    android:layout_width="380dp"
+                    android:layout_height="190dp"
+                    android:layout_below="@+id/kalimat21"
+                    android:layout_marginBottom="0dp"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginRight="2dp"
+                    android:layout_marginTop="2dp"
+                    android:onClick="launchalamatGMaps"
+                    android:src="@drawable/gmaps"
+                    />
+            </RelativeLayout>
+        </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+    <ImageView
+        android:background="#3AB36E"
+        android:id="@+id/footerbackgroud"
+        android:layout_width="match_parent"
+        android:layout_weight="0"
+        android:layout_height="40dp"
+        android:layout_below="@+id/scrollText1"
+        android:layout_marginBottom="1dp"
+        android:src="@drawable/backgroundappfooter" />
+
+
+</LinearLayout>
+

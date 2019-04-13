@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="intern.com.prant.intent.diareActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundapp">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold"
+        android:text="Pengertian"
+        android:typeface="sans"
+        android:id="@+id/kalimat1"
+        android:layout_marginTop="68dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_alignParentTop="true" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:text="Penyakit yang ditandai dengan bertambahnya"
+        android:typeface="sans"
+        android:id="@+id/kalimat2"
+        android:layout_below="@+id/kalimat1" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:text="frekuensi defekasi lebih dari biasanya (> 3 kali/hari)"
+        android:typeface="sans"
+        android:id="@+id/kalimat3"
+        android:layout_below="@+id/kalimat2" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:text="disertai perubahan konsistensi tinja (menjadi cair),"
+        android:typeface="sans"
+        android:id="@+id/kalimat4"
+        android:layout_below="@+id/kalimat3" />
+
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:text="dengan/tanpa darah dan/atau lendir"
+        android:typeface="sans"
+        android:id="@+id/kalimat5"
+        android:layout_below="@+id/kalimat4" />
+
+       <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryDark"
+        android:text="Syarat Diet"
+        android:typeface="sans"
+        android:id="@+id/kalimat6"
+        android:layout_below="@+id/kalimat5"
+        android:layout_alignLeft="@+id/kalimat5"
+        android:layout_alignStart="@+id/kalimat5"
+        android:layout_marginTop="10dp" />
+
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:text="1. Mudah cerna, porsi kecil dan sering"
+        android:typeface="sans"
+        android:id="@+id/kalimat7"
+        android:layout_below="@+id/kalimat6" />
+       <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:text="2. Energi dan protein cukup sesuai dengan"
+        android:typeface="sans"
+        android:id="@+id/kalimat8"
+        android:layout_below="@+id/kalimat7" />
+
+       <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="10dp"
+        android:text="kemampuan pasien"
+        android:typeface="sans"
+        android:id="@+id/kalimat9"
+        android:layout_below="@+id/kalimat8" />
+
+       <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:text="3. Lemak rendah "
+        android:typeface="sans"
+        android:id="@+id/kalimat10"
+        android:layout_below="@+id/kalimat9" />
+
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:text="4. Rendah serat seperti wortel, labu, sari buah"
+        android:typeface="sans"
+        android:id="@+id/kalimat11"
+        android:layout_below="@+id/kalimat10" />
+
+       <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="10dp"
+        android:text="serta buah segar yang matang"
+        android:typeface="sans"
+        android:id="@+id/kalimat12"
+        android:layout_below="@+id/kalimat11" />
+
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="10dp"
+        android:text="(tanpa kulit) dan tidak banyak menimbulkan"
+        android:typeface="sans"
+        android:id="@+id/kalimat13"
+        android:layout_below="@+id/kalimat12" />
+
+       <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="10dp"
+        android:text="gas yaitu pisang dan alpukat"
+        android:typeface="sans"
+        android:id="@+id/kalimat14"
+        android:layout_below="@+id/kalimat13" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:text="5. Cairan cukup"
+        android:typeface="sans"
+        android:id="@+id/kalimat15"
+        android:layout_below="@+id/kalimat14" />
+
+       <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:text="6. Hindari mengandung bahan makanan dan bumbu"
+        android:typeface="sans"
+        android:id="@+id/kalimat16"
+        android:layout_below="@+id/kalimat15" />
+
+       <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="10dp"
+        android:text="yang tajam seperti makanan"
+        android:typeface="sans"
+        android:id="@+id/kalimat17"
+        android:layout_below="@+id/kalimat16" />
+
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="10dp"
+        android:text="pedas, mengandung cabai, merica, cuka,"
+        android:typeface="sans"
+        android:id="@+id/kalimat18"
+        android:layout_below="@+id/kalimat17" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="10dp"
+        android:text="santan kental dan sebagainya"
+        android:typeface="sans"
+        android:id="@+id/kalimat19"
+        android:layout_below="@+id/kalimat18" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:text="7. Hindari susu, produk susu dan daging"
+        android:typeface="sans"
+        android:id="@+id/kalimat20"
+        android:layout_below="@+id/kalimat19" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="10dp"
+        android:text="berserat kasar (liat)"
+        android:typeface="sans"
+        android:id="@+id/kalimat21"
+        android:layout_below="@+id/kalimat20" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:text="8. Hindari mengkonsumsi makanan yang terlalu"
+        android:typeface="sans"
+        android:id="@+id/kalimat22"
+        android:layout_below="@+id/kalimat21" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="10dp"
+        android:text="berlemak"
+        android:typeface="sans"
+        android:id="@+id/kalimat23"
+        android:layout_below="@+id/kalimat22" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:text="9. Bentuk makanan dikondisikan dengan kondisi klinis"
+        android:typeface="sans"
+        android:id="@+id/kalimat24"
+        android:layout_below="@+id/kalimat23" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="10dp"
+        android:text="dan kemampuan pasien mengkonsumsi"
+        android:typeface="sans"
+        android:id="@+id/kalimat25"
+        android:layout_below="@+id/kalimat24" />
+
+
+
+
+
+
+
+
+
+</RelativeLayout>
